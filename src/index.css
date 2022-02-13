@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Space Grotesk';
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #20bf55;
+  background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0.02);
+  height: 250px;
+  width: 500px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  color: #eaeaea;
+  /* justify-content: center; */
+}
+
+.card__body {
+  padding: 10px;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.card__body-title::before {
+  content: open-quote;
+}
+.card__body-title::after {
+  content: close-quote;
+}
+
+.card__body-author {
+  position: relative;
+  text-align: right;
+  color: #dfdfdf;
+  margin-top: 10px;
+}
+.card__footer {
+  border-top: 1px solid #136788;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30%;
+}
+.btn {
+  border: none;
+  margin: 5px;
+  padding: 10px;
+  background: #0da683;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
+.btn:hover {
+  background: #0e9172;
+}
+
+.twiter {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
