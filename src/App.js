@@ -3,18 +3,12 @@ const quotes = [
   {
     text: "I can't relate to lazy people. We don't speak the same language. I don't understand you. I don't want to understand you.",
     author: 'Kobe Bryant',
-  },
-  {
-    text: 'I have nothing in common with lazy people who blame others for their lack of success. Great things come from hard work and perseverance. No excuses.',
-    author: 'Kobe Bryant',
+    source: 'https://www.si.com/nba/2013/10/16/kobe-bryant-lakers-si-cover-story',
   },
   {
     text: 'Everything negative -- pressure, challenges -- is all an opportunity for me to rise.',
     author: 'Kobe Bryant',
-  },
-  {
-    text: 'Dedication sees dreams come true.',
-    author: 'Kobe Bryant',
+    source: 'https://www.nike.com/mamba-mentality/optimism',
   },
 ];
 function App() {

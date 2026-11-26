@@ -54,6 +54,11 @@ body {
   color: #dfdfdf;
   margin-top: 10px;
 }
+.card__body-author a {
+  color: inherit;
+  margin-left: 8px;
+}
+
 .card__footer {
   border-top: 1px solid #136788;
   display: flex;
